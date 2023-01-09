@@ -84,7 +84,7 @@ topMenuE1.addEventListener('click', function (evt) {
     evt.target.classList.remove('.active');
     showingSubMenu = false;
     subMenuEl.style.top = '0';
-    return;
+    // return;
   }
 
   //console.log(topMenuLinks[0]);
